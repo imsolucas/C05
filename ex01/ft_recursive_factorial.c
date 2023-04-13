@@ -6,7 +6,7 @@
 /*   By: djin <djin@42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/11 12:17:43 by djin              #+#    #+#             */
-/*   Updated: 2023/04/13 09:15:10 by djin             ###   ########.fr       */
+/*   Updated: 2023/04/13 22:20:09 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -20,7 +20,7 @@ int	ft_recursive_factorial(int nb)
 	return (nb);
 }
 
-/*int	main()
+/*int	main(void)
 {
 	printf("%d\n", ft_recursive_factorial(3));
 }*/

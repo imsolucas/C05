@@ -6,7 +6,7 @@
 /*   By: djin <djin@42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/11 12:35:33 by djin              #+#    #+#             */
-/*   Updated: 2023/04/13 09:20:41 by djin             ###   ########.fr       */
+/*   Updated: 2023/04/13 22:20:56 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
@@ -22,7 +22,7 @@ int	ft_recursive_power(int nb, int power)
 	return (nb);
 }
 
-/*int	main()
+/*int	main(void)
 {
 	printf("%d\n", ft_recursive_power(2, 9));
 }*/
