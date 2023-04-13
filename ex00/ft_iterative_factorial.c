@@ -6,14 +6,14 @@
 /*   By: djin <djin@42.fr>                          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/10 16:08:51 by djin              #+#    #+#             */
-/*   Updated: 2023/04/10 16:52:06 by djin             ###   ########.fr       */
+/*   Updated: 2023/04/13 09:13:52 by djin             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
 
-int ft_iterative_factorial(int nb)
+int	ft_iterative_factorial(int nb)
 {
-	int i;
+	int	i;
 
 	i = 1;
 	while (nb > 0)
@@ -24,7 +24,7 @@ int ft_iterative_factorial(int nb)
 	return (i);
 }
 
-int	main()
+/*int	main()
 {
-	printf("%d\n", ft_iterative_factorial(0));
-}
+	printf("The factor is:%d\n", ft_iterative_factorial(0));
+}*/
